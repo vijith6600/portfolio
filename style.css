@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    margin:0;
+}
+.menu{
+    position: fixed;
+    background: rgb(239, 206, 206);
+    width:100%;
+    margin-top:0px;
+}
+.links{
+display: inline;
+padding-left:20px;
+padding-right:40px;
+font-size:30px;
+}
+.links:hover{
+    font-size: 35px;
+    text-decoration: underline;
+} 
+a{
+    text-decoration: none;
+    color: blue;
+    text-shadow: 2px 2px 2px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(gray,rgb(181, 244, 244));
+}
+h1{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Smooch', cursive;
+}
+#name{
+    font-size: 70px;
+    line-height: 1.2;
+    font-family: 'Smooch', cursive;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Macondo', cursive;;
+
+}
+#bio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: auto;
+}
+p{
+    font-size: 25px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: greenyellow;
+}
+.contact{
+    background-color: violet;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: rgb(0, 0, 0);
+}
